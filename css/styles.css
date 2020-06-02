@@ -10,3 +10,12 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.fade {
+  cursor: pointer;
+  color: pink
+}
+
+.fade:hover {
+  text-decoration: bold;
+}
