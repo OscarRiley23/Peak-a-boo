@@ -1,7 +1,6 @@
-let question = prompt("Please enter a sentence.");
-
-let newString = function(string) {
-  return string.charAt(0).toUpperCase()
-}
-
-newString(question);
+$(document).ready(function() {
+  $("p").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
+  });
+});
